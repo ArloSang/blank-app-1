@@ -6,8 +6,8 @@ st.write(
 )
 import os
 from supabase import create_client, Client
-url: str = os.environ.get("db.babnnvuqximsunvrxyal.supabase.co")
-key: str = os.environ.get("abbgC6AYLZevUZZl")
+url: str = os.environ.get("https://babnnvuqximsunvrxyal.supabase.co")
+key: str = os.environ.get("sb_publishable_EbWo3lAIedwn78OQkFi3Wg_DoLA620g")
 supabase: Client = create_client(url, key)
 
 response = (
